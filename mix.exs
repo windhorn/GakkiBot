@@ -29,7 +29,9 @@ defmodule GakiBot.Mixfile do
   defp deps do
     [
       {:slack, "~> 0.2.0"},
-      {:websocket_client, git: "https://github.com/jeremyong/websocket_client.git"}
+      {:websocket_client, git: "https://github.com/jeremyong/websocket_client.git"},
+      {:httpoison, "~> 0.7.3"},
+      {:floki, "~> 0.4.1"}
     ]
   end
 end
