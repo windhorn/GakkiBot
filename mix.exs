@@ -31,7 +31,8 @@ defmodule GakiBot.Mixfile do
       {:slack, "~> 0.2.0"},
       {:websocket_client, git: "https://github.com/jeremyong/websocket_client.git"},
       {:httpoison, "~> 0.7.3"},
-      {:floki, "~> 0.4.1"}
+      {:floki, "~> 0.4.1"},
+      {:poison, "~> 1.5"}
     ]
   end
 end

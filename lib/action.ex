@@ -23,9 +23,9 @@ defmodule Action do
   def respond("respond?", message, slack) do
     send_message("📣", message.channel, slack)
   end
-  def respond(_, _, _) do
-  end
   def respond("画像ください", message, slack) do
     send_message("🐱", message.channel, slack)
+  end
+  def respond(_, _, _) do
   end
 end
